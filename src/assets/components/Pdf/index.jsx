@@ -12,7 +12,8 @@ const Pdf = () => {
     };
 
     return (
-        <div>
+        <div style={{marginBottom: '50px'}}>
+            <h3>React PDF Viewer</h3>
             <input type="file" accept=".pdf" onChange={onChange} />
 
             <div style={{ height: "750px" }}>

@@ -16,12 +16,18 @@ const MyUploader = () => {
     }
   
     return (
-      <Dropzone
+      <div style={{marginBottom: '50px'}}>
+        <h3>React Dropzone Uploader</h3>
+
+        <Dropzone
         getUploadParams={getUploadParams}
         onChangeStatus={handleChangeStatus}
         onSubmit={handleSubmit}
         accept="image/*,audio/*,video/*"
-      />
+        />
+        <hr />
+      </div>
+      
     )
   }
   

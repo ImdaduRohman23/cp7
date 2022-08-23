@@ -3,19 +3,23 @@ import Pdf from './assets/components/Pdf/index.jsx'
 import MyUploader from './assets/DropzoneCoba.jsx'
 import { Worker } from '@react-pdf-viewer/core';
 import PlayerCoba from './assets/components/PlayerCoba/index.jsx';
+import ModalimageCoba from './assets/components/ModalimageCoba/index.jsx';
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Belajar di Kelas Chapter 7</h1>
+      <h1 style={{textAlign: 'center'}}>
+        FORUM DISCUSSION CHAPTER 7
+      </h1> 
+      <hr />
+      <hr /> 
       <MyUploader />
-
+      <ModalimageCoba />
       <PlayerCoba />
-
-      {/* <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.15.349/build/pdf.worker.min.js">
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.15.349/build/pdf.worker.min.js">
         <Pdf />
-      </Worker> */}
+      </Worker>
       
     </div>
   )
