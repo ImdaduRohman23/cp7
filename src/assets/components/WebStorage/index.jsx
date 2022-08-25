@@ -16,8 +16,8 @@ const WebStorage = () => {
                 localStorage.removeItem('data')
             }}>
                 Remove
-            </button>
-            <p>Ini dari <b>getItem</b>: {dataGet}</p> */}
+            </button> */}
+            <p>Ini dari <b>getItem</b>: {localStorage.getItem('data')}</p>
 
         </div>
     )
