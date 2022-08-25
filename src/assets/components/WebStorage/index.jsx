@@ -12,11 +12,11 @@ const WebStorage = () => {
             }}>
                 Local Storage: Klik for <b>setItem</b> data
             </button>
-            {/* <button onClick={() => {
+            <button onClick={() => {
                 localStorage.removeItem('data')
             }}>
                 Remove
-            </button> */}
+            </button>
             <p>Ini dari <b>getItem</b>: {localStorage.getItem('data')}</p>
 
         </div>
