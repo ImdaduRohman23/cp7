@@ -15,9 +15,10 @@ const BarChart = () => {
     
     ;
     return (
-        <div>
+        <div style={{marginBottom: '50px'}}>
             <h3>Line Graph</h3>
             <Line data={data} />
+            <hr />
         </div>
     )
 }
