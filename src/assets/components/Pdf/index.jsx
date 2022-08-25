@@ -42,6 +42,7 @@ const Pdf = () => {
                 </div>
                 )}
             </div>
+            <hr />
         </div>
     );
 };
