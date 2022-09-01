@@ -6,6 +6,7 @@ import PlayerCoba from './assets/components/PlayerCoba/index.jsx';
 import ModalimageCoba from './assets/components/ModalimageCoba/index.jsx';
 import BarChart from './assets/components/BarChart/index.jsx';
 import WebStorage from './assets/components/WebStorage/index.jsx';
+import BasicExample from './assets/components/BasicExample.jsx';
 
 function App() {
 
@@ -28,6 +29,13 @@ function App() {
       <hr /><hr /> 
       <BarChart />
       <WebStorage />
+
+      <hr /><hr /> 
+      <h2 style={{textAlign: 'center'}}>React Router Dom@5</h2>
+      <hr /><hr />
+
+      <BasicExample />
+      <hr style={{marginBottom: '100px'}}/>
       
     </div>
   )

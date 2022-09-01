@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "react-script test",
     "test": "jest"
   },
   "dependencies": {
@@ -20,7 +19,8 @@
     "react-dom": "^18.2.0",
     "react-dropzone-uploader": "^2.11.0",
     "react-modal-image": "^2.5.0",
-    "react-player": "^2.10.1"
+    "react-player": "^2.10.1",
+    "react-router-dom": "^5.3.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
