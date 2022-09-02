@@ -48,7 +48,7 @@ export default function BasicExample() {
             */}
             <Switch>
                 <Route exact path="/">
-                    <Home />
+                    {isLogin ? <Redirect to='/dashboard' /> : <Home />}
                 </Route>
                 <Route path="/about">
                     <About />
@@ -73,7 +73,7 @@ function Home() {
         <div>
             <h2 style={{textAlign: 'center'}}>Home</h2>
             <div style={{textAlign: 'center'}}> 
-                <button onClick={() => localStorage.setItem("token", "semangatttt!")}>login</button>
+                <button onClick={() => {localStorage.setItem("token", "semangatttt!");window.location.reload()}}>login</button>
             </div>
         </div>
     );
@@ -91,6 +91,14 @@ function Home() {
     return (
         <div>
             <h2 style={{textAlign: 'center'}}>Dashboard</h2>
+            <div style={{textAlign: 'center'}} >
+                <Link to="/about">
+                    <button >About</button>
+                </Link>
+            </div>
+            
+            
+
         </div >
     );
 }
